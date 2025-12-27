@@ -14,26 +14,26 @@ VietRAG Travel Agent is a RAG‑powered Vietnam travel assistant that combines f
 Hanoi.docx and HoChiMinh.docx are the primary external knowledge bases for RAG system. They serve as the authoritative local content that gets chunked, embedded, and indexed into FAISS. These documents provide the factual grounding that the LLM uses to produce source‑backed answers and reduce hallucinations.
 
 ## Finite State Machine
-<img src="FSM.png" width="60%">
+<img src="./public/FSM.png" width="60%">
 
 ## WorkFlow
-<img src="workflow.png" width="60%">
+<img src="./public/workflow.png" width="60%">
 
 ## Usage
 
 https://colab.research.google.com/drive/13dNnj0nxg3BTzj04QrNRL0kCHn-zb-rQ?usp=sharing
 
 ### 1. Open Colab and Add Your API key
-<img src="secret.png" width="30%">
+<img src="./public/secret.png" width="30%">
 
 ### 2. Download Data and Upload (Cell 1)
 
-<img src="file.png" width="30%">
+<img src="./public/file.png" width="30%">
 
 ### 3. Download Module (Cell 2, 3)
 Return Error Messeage is true, because we restarted kernel here.
 
-<img src="Error_msg.png" width="30%">
+<img src="./public/Error_msg.png" width="30%">
 
 ### 4. Create FAISS Data (Cell 4, 5)
 
